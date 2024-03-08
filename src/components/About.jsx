@@ -19,8 +19,9 @@ const About = () => {
       <div className="w-[18rem] h-[19.8rem] border ml-5 rounded-lg mt-10 ">
         <img
           src={AboutPic}
-          alt="Profile Picture"
-          className="-mt-[2.3rem] -ml-9 rounded-lg h-auto max-w-full "/>
+          alt="profile"
+          className="-mt-[2.3rem] -ml-9 rounded-lg h-auto max-w-full "
+        />
       </div>
       <div>
         <h2 className="text-white text-4xl max-sm:text-3xl mb-5 max-sm:mt-8 font-KodeMono">

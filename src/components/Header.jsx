@@ -4,9 +4,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
 import MenuDrop from "./MenuDrop";
-
 import HeadName from "./HeadName";
-
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const displayMenu = () => {
@@ -14,10 +12,7 @@ const Header = () => {
   };
   return (
     <header>
-      {/* <div className="flex justify-center"> */}
       <Navbar />
-      {/* </div> */}
-
       <div className="  flex justify-between  mx-5 my-5 ">
         {!showMenu && (
           <div className="hidden max-sm:block max-md:block">
@@ -41,7 +36,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-
       <div className="flex">
         {showMenu && (
           <div className=" ml-[10rem]">
