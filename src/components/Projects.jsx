@@ -1,6 +1,6 @@
 import React from "react";
 import { AboutPic } from "../assets/image";
-import { FaGithub } from "react-icons/fa6";
+// import { FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -36,7 +36,7 @@ const Projects = () => {
             landscape screen
           </p>
           <div className="text-blue-600  text-4xl w-[4rem] mt-3">
-            <FaGithub />
+            {/* <FaGithub /> */}
           </div>
         </div>
         <div className="w-[18rem] h-[19.8rem] border ml-5 rounded-lg">
@@ -77,7 +77,7 @@ const Projects = () => {
             reprehenderit architecto accusantium cum quaerat tempora, dolorem ex
           </p>
           <div className="text-blue-600  text-4xl w-[4rem] mt-3">
-            <FaGithub />
+            {/* <FaGithub /> */}
           </div>
         </div>
       </motion.div>

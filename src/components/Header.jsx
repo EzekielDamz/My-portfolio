@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { HiOutlineMenuAlt2 } from "react-icons/hi";
-import { RiCloseLine } from "react-icons/ri";
+// import { HiOutlineMenuAlt2 } from "react-icons/hi";
+// import { RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
 import MenuDrop from "./MenuDrop";
 import HeadName from "./HeadName";
@@ -26,11 +26,11 @@ const Header = () => {
           >
             {showMenu ? (
               <div className="text-white text-3xl">
-                <RiCloseLine />
+                {/* <RiCloseLine /> */}
               </div>
             ) : (
               <div className="text-white text-3xl">
-                <HiOutlineMenuAlt2 />
+                {/* <HiOutlineMenuAlt2 /> */}
               </div>
             )}
           </button>
